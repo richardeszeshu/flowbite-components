@@ -1,6 +1,6 @@
 {
     "name": "richardeszeshu/flowbite-components",
-    "description": "Blade components that uses Flowbite",
+    "description": "Flowbite Blade Components for Laravel 9.x",
     "homepage": "https://github.com/richardeszeshu/flowbite-components",
     "license": "CC-BY-SA-4.0",
     "authors": [
