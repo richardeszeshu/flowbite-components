@@ -120,3 +120,31 @@ Flowbite options:
 * helperText (string)
 * disableVerificationMarkers (boolean, default: false)
 * verificationSuccess (boolean, default: false)
+
+### Textarea
+
+```html
+  <x-flowbite::form.textarea name="message" label="Your message" placeholder="Enter your message...">{{ old('message') }}</x-flowbite::form.textarea>
+```
+  
+Examples:
+  
+Available parameters:
+
+HTML attributes:
+* id (string)
+* label (string)
+* placeholder (string)
+* required (boolean, default: false)
+* readonly (boolean, default: false)
+* disabled (boolean, default: false)
+* maxlength (integer)
+* name (string)
+* autofocus (boolean)
+* form (string)
+* rows (integer, default: 4)
+  
+Flowbite options:
+* helperText (string)
+* disableVerificationMarkers (boolean, default: false)
+* verificationSuccess (boolean, default: false)
