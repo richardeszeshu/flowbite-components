@@ -1,0 +1,32 @@
+{
+    "name": "richardeszeshu/flowbite-components",
+    "description": "Blade components that uses Flowbite",
+    "homepage": "https://github.com/richardeszeshu/flowbite-components",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Eszes",
+            "email": "richard.eszes@outlook.com",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/richardeszeshu/flowbite-components/issues"
+    },
+    "require": {
+        "laravel/framework": "^9.19"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RichardEszes\\FlowbiteComponents\\FlowbiteComponentsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "RichardEszes\\FlowbiteComponents\\": "src"
+        }
+    }
+}
